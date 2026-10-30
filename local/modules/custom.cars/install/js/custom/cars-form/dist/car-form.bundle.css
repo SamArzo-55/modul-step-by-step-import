@@ -1,0 +1,25 @@
+.custom-cars-hidden {
+    display: none !important;
+}
+
+.custom-cars-locked {
+    opacity: .65;
+    cursor: not-allowed;
+}
+
+.custom-cars-locked .ui-entity-editor-block-title-edit,
+.custom-cars-locked .ui-entity-editor-block-title-edit-icon,
+.custom-cars-locked .ui-entity-editor-block-edit-lock {
+    display: none !important;
+}
+
+.custom-cars-error {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #ff5752;
+}
+
+.custom-cars-error-list {
+    margin: 6px 0 0;
+    padding-left: 18px;
+}
